@@ -1,0 +1,48 @@
+2023-12-07 11:39:15,764 - INFO - root - 
+
+            Google Flights Scraper 
+                 
+            Press CTRL+C to exit.
+            
+2023-12-07 11:39:19,579 - INFO - root - 
+
+          From: ['NAP'] 
+          To: ['CCU']
+          Departure: 2023-12-26
+          Days: 2
+          Flexibility: 1
+          Only weekends: False
+          Last date: 2024-01-15
+          Fast mode: True
+          Timeout: 10
+          
+2023-12-07 11:39:49,783 - INFO - root - User has pressed CTRL+C.
+2023-12-07 11:39:49,785 - INFO - root - 
+
+          Start at: 2023-12-07 11:39:23.991937
+          End at: 2023-12-07 11:39:49.785510
+          Time elapsed: 0:00:25.793573
+          Total flights: 4
+          
+2023-12-07 11:39:53,823 - WARNING - urllib3.connectionpool - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002261F13D510>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/0d5ee8ae55245f97cd3e90019d0e5ae8
+2023-12-07 11:39:57,880 - WARNING - urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002261F13D600>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/0d5ee8ae55245f97cd3e90019d0e5ae8
+2023-12-07 11:40:01,939 - WARNING - urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002261F13D000>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/0d5ee8ae55245f97cd3e90019d0e5ae8
+2023-12-07 11:40:10,079 - INFO - root - Raw CSV file is: C:\Users\Shreyoshi\OneDrive\Desktop\FlightPrice\Scraper\results\NAPtoCCU_20231207113921.csv
+2023-12-07 11:40:10,146 - INFO - root - Cheapest flight details:['2023-12-27', '2023-12-29', 'NAP–CCU', 101227, 'ITA, Etihad', 'round trip', '26 hr 45 min', '2 stops']
+2023-12-07 11:40:31,266 - ERROR - root - [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Traceback (most recent call last):
+  File "C:\Users\Shreyoshi\OneDrive\Desktop\FlightPrice\Scraper\main.py", line 73, in read_final_result
+    send_email("Cheapest Flight Information", cheapest_flight_str, "ayushutkarsh1012@gmail.com")
+  File "C:\Users\Shreyoshi\OneDrive\Desktop\FlightPrice\Scraper\main.py", line 48, in send_email
+    with smtplib.SMTP(smtp_server, smtp_port) as server:
+  File "C:\Program Files\Python310\lib\smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Program Files\Python310\lib\smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Program Files\Python310\lib\smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "C:\Program Files\Python310\lib\socket.py", line 845, in create_connection
+    raise err
+  File "C:\Program Files\Python310\lib\socket.py", line 833, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond

@@ -1,0 +1,276 @@
+2023-12-06 22:44:42,068 - INFO - root - 
+
+            GoogleFlightsScraper 
+                 version 1.5
+            AVOLOAVOLO.it TRIBUTE
+                  fly high
+                 
+            Press CTRL+C to exit.
+            
+2023-12-06 22:47:02,492 - INFO - root - 
+
+            GoogleFlightsScraper 
+                 version 1.5
+            AVOLOAVOLO.it TRIBUTE
+                  fly high
+                 
+            Press CTRL+C to exit.
+            
+2023-12-06 22:47:04,923 - ERROR - root - 
+[ERROR] Past dates are not allowed in settings.json file.
+Traceback (most recent call last):
+  File "C:\Users\Shreyoshi\OneDrive\Desktop\FlightPrice\GFScraper\main.py", line 277, in <module>
+    raise ValueError("\n[ERROR] Past dates are not allowed in settings.json file.")
+ValueError: 
+[ERROR] Past dates are not allowed in settings.json file.
+2023-12-06 22:47:04,927 - ERROR - root - 
+[ERROR] Past dates are not allowed in settings.json file.
+2023-12-06 22:47:04,927 - INFO - root - Exiting."
+2023-12-06 22:47:09,352 - INFO - root - 
+
+            GoogleFlightsScraper 
+                 version 1.5
+            AVOLOAVOLO.it TRIBUTE
+                  fly high
+                 
+            Press CTRL+C to exit.
+            
+2023-12-06 22:54:26,352 - INFO - root - settings.json updated successfully.
+2023-12-06 22:54:26,352 - INFO - root - 
+
+          From: ['NAP'] 
+          To: ['CCU']
+          Departure: 2023-12-26
+          Days: 2
+          Flexibility: 1
+          Only weekends: False
+          Last date: 2024-01-15
+          Fast mode: True
+          Timeout: 10
+          
+2023-12-06 22:56:55,487 - ERROR - root - <class 'selenium.common.exceptions.TimeoutException'>
+2023-12-06 22:56:55,487 - INFO - root - ['2024-01-08', '2024-01-11', 'NAP–CCU']
+2023-12-06 22:57:22,599 - ERROR - root - <class 'selenium.common.exceptions.TimeoutException'>
+2023-12-06 22:57:32,947 - ERROR - root - <class 'selenium.common.exceptions.TimeoutException'>
+2023-12-06 22:57:32,947 - INFO - root - ['2024-01-10', '2024-01-13', 'NAP-CCU', 'None']
+2023-12-06 22:58:10,825 - INFO - root - 
+
+          Start at: 2023-12-06 22:54:37.267428
+          End at: 2023-12-06 22:58:10.825151
+          Time elapsed: 0:03:33.557723
+          Total flights: 40
+          
+2023-12-06 22:58:13,011 - INFO - root - Raw CSV file is: C:\Users\Shreyoshi\OneDrive\Desktop\FlightPrice\GFScraper\results\NAPtoCCU_20231206225434.csv
+2023-12-06 23:06:49,437 - INFO - root - 
+
+            GoogleFlightsScraper 
+                 version 1.5
+            AVOLOAVOLO.it TRIBUTE
+                  fly high
+                 
+            Press CTRL+C to exit.
+            
+2023-12-06 23:06:52,203 - INFO - root - 
+
+          From: ['NAP'] 
+          To: ['CCU']
+          Departure: 2023-12-26
+          Days: 2
+          Flexibility: 1
+          Only weekends: False
+          Last date: 2024-01-15
+          Fast mode: True
+          Timeout: 10
+          
+2023-12-06 23:07:44,477 - INFO - root - User has pressed CTRL+C.
+2023-12-06 23:07:44,478 - INFO - root - 
+
+          Start at: 2023-12-06 23:06:55.010013
+          End at: 2023-12-06 23:07:44.478024
+          Time elapsed: 0:00:49.468011
+          Total flights: 9
+          
+2023-12-06 23:07:48,506 - WARNING - urllib3.connectionpool - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E6524BCF40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/da7f9334abc711b8b94adf807f9b5e27
+2023-12-06 23:07:52,548 - WARNING - urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E6524BD120>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/da7f9334abc711b8b94adf807f9b5e27
+2023-12-06 23:07:56,574 - WARNING - urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E6524BCC70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/da7f9334abc711b8b94adf807f9b5e27
+2023-12-06 23:08:04,658 - INFO - root - Raw CSV file is: C:\Users\Shreyoshi\OneDrive\Desktop\FlightPrice\GFScraper\results\NAPtoCCU_20231206230653.csv
+2023-12-06 23:08:04,681 - INFO - root - Cheapest flight details:['2023-12-27', '2023-12-29', 'NAP–CCU', 101393, 'ITA, Etihad', 'round trip', '26 hr 45 min', '2 stops']
+2023-12-06 23:25:57,101 - INFO - root - 
+
+          From: ['NAP'] 
+          To: ['CCU']
+          Departure: 2023-12-26
+          Days: 2
+          Flexibility: 1
+          Only weekends: False
+          Last date: 2024-01-15
+          Fast mode: True
+          Timeout: 10
+          
+2023-12-06 23:28:22,432 - ERROR - root - <class 'selenium.common.exceptions.TimeoutException'>
+2023-12-06 23:28:32,794 - ERROR - root - <class 'selenium.common.exceptions.TimeoutException'>
+2023-12-06 23:28:32,794 - INFO - root - ['2024-01-07', '2024-01-10', 'NAP-CCU', 'None']
+2023-12-06 23:28:33,040 - INFO - root - User has pressed CTRL+C.
+2023-12-06 23:28:33,041 - INFO - root - 
+
+          Start at: 2023-12-06 23:26:00.131674
+          End at: 2023-12-06 23:28:33.041165
+          Time elapsed: 0:02:32.909491
+          Total flights: 26
+          
+2023-12-06 23:28:37,115 - WARNING - urllib3.connectionpool - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E6524BDAE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/43572dd5cca4ddc11c3571204945bad2
+2023-12-06 23:28:41,178 - WARNING - urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E6524BE530>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/43572dd5cca4ddc11c3571204945bad2
+2023-12-06 23:28:45,273 - WARNING - urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E6524BDF90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/43572dd5cca4ddc11c3571204945bad2
+2023-12-06 23:28:53,438 - INFO - root - Raw CSV file is: C:\Users\Shreyoshi\OneDrive\Desktop\FlightPrice\GFScraper\results\NAPtoCCU_20231206232558.csv
+2023-12-06 23:28:53,441 - ERROR - root - cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\Shreyoshi\OneDrive\Desktop\FlightPrice\GFScraper\main.py", line 65, in read_final_result
+    df[df.columns[3]] = df[df.columns[3]].replace('[^0-9]', '', regex=True).astype(int)
+  File "C:\Users\Shreyoshi\AppData\Roaming\Python\Python310\site-packages\pandas\core\generic.py", line 6534, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
+  File "C:\Users\Shreyoshi\AppData\Roaming\Python\Python310\site-packages\pandas\core\internals\managers.py", line 414, in astype
+    return self.apply(
+  File "C:\Users\Shreyoshi\AppData\Roaming\Python\Python310\site-packages\pandas\core\internals\managers.py", line 354, in apply
+    applied = getattr(b, f)(**kwargs)
+  File "C:\Users\Shreyoshi\AppData\Roaming\Python\Python310\site-packages\pandas\core\internals\blocks.py", line 616, in astype
+    new_values = astype_array_safe(values, dtype, copy=copy, errors=errors)
+  File "C:\Users\Shreyoshi\AppData\Roaming\Python\Python310\site-packages\pandas\core\dtypes\astype.py", line 238, in astype_array_safe
+    new_values = astype_array(values, dtype, copy=copy)
+  File "C:\Users\Shreyoshi\AppData\Roaming\Python\Python310\site-packages\pandas\core\dtypes\astype.py", line 183, in astype_array
+    values = _astype_nansafe(values, dtype, copy=copy)
+  File "C:\Users\Shreyoshi\AppData\Roaming\Python\Python310\site-packages\pandas\core\dtypes\astype.py", line 134, in _astype_nansafe
+    return arr.astype(dtype, copy=True)
+ValueError: cannot convert float NaN to integer
+2023-12-06 23:30:00,672 - INFO - root - 
+
+          From: ['NAP'] 
+          To: ['CCU']
+          Departure: 2023-12-26
+          Days: 2
+          Flexibility: 1
+          Only weekends: False
+          Last date: 2024-01-15
+          Fast mode: True
+          Timeout: 10
+          
+2023-12-06 23:30:59,878 - ERROR - root - <class 'selenium.common.exceptions.TimeoutException'>
+2023-12-06 23:31:10,044 - ERROR - root - <class 'selenium.common.exceptions.TimeoutException'>
+2023-12-06 23:31:10,044 - INFO - root - ['2023-12-31', '2024-01-03', 'NAP-CCU', 'None']
+2023-12-06 23:31:24,342 - INFO - root - User has pressed CTRL+C.
+2023-12-06 23:31:24,343 - INFO - root - 
+
+          Start at: 2023-12-06 23:30:04.281908
+          End at: 2023-12-06 23:31:24.342919
+          Time elapsed: 0:01:20.061011
+          Total flights: 15
+          
+2023-12-06 23:31:28,405 - WARNING - urllib3.connectionpool - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E6524BF250>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/67b072b08888599ac33ce4905acbcd53
+2023-12-06 23:31:32,444 - WARNING - urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E6524BF130>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/67b072b08888599ac33ce4905acbcd53
+2023-12-06 23:31:36,504 - WARNING - urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E6524BEC20>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/67b072b08888599ac33ce4905acbcd53
+2023-12-06 23:31:44,666 - INFO - root - Raw CSV file is: C:\Users\Shreyoshi\OneDrive\Desktop\FlightPrice\GFScraper\results\NAPtoCCU_20231206233002.csv
+2023-12-06 23:31:44,666 - ERROR - root - cannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:\Users\Shreyoshi\OneDrive\Desktop\FlightPrice\GFScraper\main.py", line 65, in read_final_result
+    df[df.columns[3]] = df[df.columns[3]].replace('[^0-9]', '', regex=True).astype(int)
+  File "C:\Users\Shreyoshi\AppData\Roaming\Python\Python310\site-packages\pandas\core\generic.py", line 6534, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
+  File "C:\Users\Shreyoshi\AppData\Roaming\Python\Python310\site-packages\pandas\core\internals\managers.py", line 414, in astype
+    return self.apply(
+  File "C:\Users\Shreyoshi\AppData\Roaming\Python\Python310\site-packages\pandas\core\internals\managers.py", line 354, in apply
+    applied = getattr(b, f)(**kwargs)
+  File "C:\Users\Shreyoshi\AppData\Roaming\Python\Python310\site-packages\pandas\core\internals\blocks.py", line 616, in astype
+    new_values = astype_array_safe(values, dtype, copy=copy, errors=errors)
+  File "C:\Users\Shreyoshi\AppData\Roaming\Python\Python310\site-packages\pandas\core\dtypes\astype.py", line 238, in astype_array_safe
+    new_values = astype_array(values, dtype, copy=copy)
+  File "C:\Users\Shreyoshi\AppData\Roaming\Python\Python310\site-packages\pandas\core\dtypes\astype.py", line 183, in astype_array
+    values = _astype_nansafe(values, dtype, copy=copy)
+  File "C:\Users\Shreyoshi\AppData\Roaming\Python\Python310\site-packages\pandas\core\dtypes\astype.py", line 134, in _astype_nansafe
+    return arr.astype(dtype, copy=True)
+ValueError: cannot convert float NaN to integer
+2023-12-06 23:37:47,244 - INFO - root - 
+
+            GoogleFlightsScraper 
+                 version 1.5
+            AVOLOAVOLO.it TRIBUTE
+                  fly high
+                 
+            Press CTRL+C to exit.
+            
+2023-12-06 23:37:49,977 - INFO - root - 
+
+          From: ['NAP'] 
+          To: ['CCU']
+          Departure: 2023-12-26
+          Days: 2
+          Flexibility: 1
+          Only weekends: False
+          Last date: 2024-01-15
+          Fast mode: True
+          Timeout: 10
+          
+2023-12-06 23:40:25,090 - ERROR - root - <class 'selenium.common.exceptions.TimeoutException'>
+2023-12-06 23:40:26,539 - INFO - root - User has pressed CTRL+C.
+2023-12-06 23:40:26,540 - INFO - root - 
+
+          Start at: 2023-12-06 23:37:52.869994
+          End at: 2023-12-06 23:40:26.540049
+          Time elapsed: 0:02:33.670055
+          Total flights: 27
+          
+2023-12-06 23:40:26,543 - WARNING - urllib3.connectionpool - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/425f1de85191964f31f402882d78ca81
+2023-12-06 23:40:30,597 - WARNING - urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D6CAE39930>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/425f1de85191964f31f402882d78ca81
+2023-12-06 23:40:34,661 - WARNING - urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D6CAE39A80>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/425f1de85191964f31f402882d78ca81
+2023-12-06 23:40:42,776 - INFO - root - Raw CSV file is: C:\Users\Shreyoshi\OneDrive\Desktop\FlightPrice\GFScraper\results\NAPtoCCU_20231206233751.csv
+2023-12-06 23:40:42,801 - INFO - root - Cheapest flight details:['2024-01-08', '2024-01-10', 'NAP–CCU', 90513, 'ITA, Etihad', 'round trip', '15 hr 55 min', '2 stops']
+2023-12-06 23:41:03,873 - ERROR - root - [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+Traceback (most recent call last):
+  File "C:\Users\Shreyoshi\OneDrive\Desktop\FlightPrice\GFScraper\main.py", line 78, in read_final_result
+    send_email("Cheapest Flight Information", cheapest_flight_str, "ayushutkarsh1012@gmail.com")
+  File "C:\Users\Shreyoshi\OneDrive\Desktop\FlightPrice\GFScraper\main.py", line 53, in send_email
+    with smtplib.SMTP(smtp_server, smtp_port) as server:
+  File "C:\Program Files\Python310\lib\smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Program Files\Python310\lib\smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Program Files\Python310\lib\smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "C:\Program Files\Python310\lib\socket.py", line 845, in create_connection
+    raise err
+  File "C:\Program Files\Python310\lib\socket.py", line 833, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+2023-12-06 23:42:33,965 - INFO - root - 
+
+            GoogleFlightsScraper 
+                 version 1.5
+            AVOLOAVOLO.it TRIBUTE
+                  fly high
+                 
+            Press CTRL+C to exit.
+            
+2023-12-06 23:42:36,105 - INFO - root - 
+
+          From: ['NAP'] 
+          To: ['CCU']
+          Departure: 2023-12-26
+          Days: 2
+          Flexibility: 1
+          Only weekends: False
+          Last date: 2024-01-15
+          Fast mode: True
+          Timeout: 10
+          
+2023-12-06 23:46:09,856 - INFO - root - User has pressed CTRL+C.
+2023-12-06 23:46:09,857 - INFO - root - 
+
+          Start at: 2023-12-06 23:42:41.715305
+          End at: 2023-12-06 23:46:09.857341
+          Time elapsed: 0:03:28.142036
+          Total flights: 4
+          
+2023-12-06 23:46:13,927 - WARNING - urllib3.connectionpool - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000134F0AB9720>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d04cbd4d034369e88d9d9cc4745bd798
+2023-12-06 23:46:17,957 - WARNING - urllib3.connectionpool - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000134F0AB9A80>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d04cbd4d034369e88d9d9cc4745bd798
+2023-12-06 23:46:22,005 - WARNING - urllib3.connectionpool - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000134F0AB9030>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/d04cbd4d034369e88d9d9cc4745bd798
+2023-12-06 23:46:30,130 - INFO - root - Raw CSV file is: C:\Users\Shreyoshi\OneDrive\Desktop\FlightPrice\GFScraper\results\NAPtoCCU_20231206234239.csv
+2023-12-06 23:46:30,143 - INFO - root - Cheapest flight details:['2023-12-27', '2023-12-29', 'NAP–CCU', 101393, 'ITA, Etihad', 'round trip', '26 hr 45 min', '2 stops']
+2023-12-06 23:46:36,458 - INFO - root - Email sent successfully!

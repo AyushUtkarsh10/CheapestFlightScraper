@@ -1,0 +1,15 @@
+{
+    "from": [
+        "NAP"
+    ],
+    "to": [
+        "CCU"
+    ],
+    "outbound": "2023-12-26",
+    "delta": 2,
+    "flexdays": 1,
+    "weekend": false,
+    "lastdate": "2024-01-15",
+    "fastmode": true,
+    "timeout": 10
+}
